@@ -11,6 +11,11 @@ def main():
     
     print('Initial status code: ' + str(res.history[0].status_code))
     print('Status code after auto-redirect: '+ str(res.status_code))
+
+    raw = requests.get('https://raw.githubusercontent.com/mattsheydwasser/CMPUT404-Lab01/master/script.py')
+
+    print('\nSource code of this file: \n\n'+raw.text)
+
     
 
 main()
