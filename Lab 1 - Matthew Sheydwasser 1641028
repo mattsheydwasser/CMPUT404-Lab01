@@ -1,0 +1,32 @@
+Lab 1 - Matthew Sheydwasser 1641028
+
+Question 1:
+
+My GitHub URL is https://github.com/mattsheydwasser
+
+
+Question 2:
+
+The versioin of the requests library is 2.28.1
+
+
+Question 3:
+
+The version of the library installed in the virtualenv is the same, 2.28.1
+
+
+Question 4:
+
+The virtual environment allows to keep python dependencies seperated between projects. Non virtual environment python needs packages to be installed globally on the system.
+
+Question 5:
+
+When using curl -i to go the the Google homepage, a 301 moved status code is returned. The url that must be visited to get a 200 OK status code is http://www.google.com/
+
+Question 6:
+
+When using curl to go to http://google.com/teapot, a 301 Moved status code is returned. This is the same when using curl -i. However, when using curl -iL, a status of 301 Moved Permanently is given before being redirected to the proper URL, in which a 418 I'm a Teapot status code is returned. When using curl with http://www.google.com/teapot, HTML is returned.
+
+Question 7:
+
+When using curl -i -X POST -d "X=Y", the curl is making a POST request rather then a GET request. This method is useful for updating or creating through curl. In this example, X is either created or updated to equal Y as the data (-d) is "X=Y".
