@@ -30,3 +30,7 @@ When using curl to go to http://google.com/teapot, a 301 Moved status code is re
 Question 7:
 
 When using curl -i -X POST -d "X=Y", the curl is making a POST request rather then a GET request. This method is useful for updating or creating through curl. In this example, X is either created or updated to equal Y as the data (-d) is "X=Y".
+
+Question 8:
+
+The raw URL to the script is https://raw.githubusercontent.com/mattsheydwasser/CMPUT404-Lab01/master/script.py

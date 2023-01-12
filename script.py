@@ -17,5 +17,5 @@ def main():
     print('\nSource code of this file: \n\n'+raw.text)
 
     
-
-main()
+if __name__ == '__main__':
+    main()
