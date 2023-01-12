@@ -14,7 +14,7 @@ def main():
 
 
     # get the raw file of this script off of GitHub, and print it out
-    raw = requests.get('https://raw.githubusercontent.com/mattsheydwasser/CMPUT404-Lab01/master/script.py')
+    raw = requests.get('https://raw.githubusercontent.com/mattsheydwasser/CMPUT404-Lab01/master/lab1.py')
 
     print('\nSource code of this file: \n\n'+raw.text)
 
